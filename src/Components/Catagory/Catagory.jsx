@@ -7,10 +7,14 @@ import styles from "./Catagory.module.css";
 const Category = () => {
   return (
     <div className={styles.container}>
-    
       <div className={styles.grid}>
         {categories.map((cat) => (
-          <CategoryCard key={cat.id} title={cat.title} image={cat.image} />
+          <CategoryCard
+            key={cat.id}
+            title={cat.title}
+            image={cat.image}
+            api={cat.api}
+          />
         ))}
       </div>
     </div>
