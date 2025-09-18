@@ -4,26 +4,22 @@ const categories = [
   {
     id: 1,
     title: "Electronics",
-    image:
-      "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    image: "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png", // first product in electronics
   },
   {
     id: 2,
-    title: "Fashion",
-    image:
-      "https://images.unsplash.com/photo-1521335629791-ce4aec67dd9a?ixlib=rb-1.2.1&w=940&q=80",
+    title: "Jewelery",
+    image: "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_t.png", // first product in jewelery
   },
   {
     id: 3,
-    title: "Home & Kitchen",
-    image:
-      "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    title: "Men's Clothing",
+    image: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png", // first product in men's clothing
   },
   {
     id: 4,
-    title: "Books",
-    image:
-      "https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-1.2.1&w=940&q=80",
+    title: "Women's Clothing",
+    image: "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_t.png", // first product in women's clothing
   },
 ];
 
