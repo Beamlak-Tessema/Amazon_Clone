@@ -6,7 +6,12 @@
   padding: 10px 20px;
   color: white;
   flex-wrap: wrap;
+
+  position: sticky;  /* make it sticky */
+  top: 60px;            /* stick to top */
+  z-index: 99;      /* above other content */
 }
+
 
 .lowerHeaderItem {
   margin-right: 15px;
