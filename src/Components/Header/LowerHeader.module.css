@@ -12,6 +12,12 @@
   margin-right: 15px;
   white-space: nowrap;
   cursor: pointer;
+  color: inherit;           /* inherit white from parent */
+  text-decoration: none;    /* remove underline */
+}
+
+.lowerHeaderItem:hover {
+  text-decoration: underline;
 }
 
 .lowerHeaderToggle {
@@ -19,7 +25,9 @@
   font-size: 20px;
   cursor: pointer;
   margin-left: auto;
+  color: white;
 }
+
 /* ---------------------- Responsive ---------------------- */
 @media (max-width: 1024px) {
   .deliver {
@@ -44,9 +52,8 @@
 }
 
 @media (max-width: 768px) {
-  /* Keep 'All' visible always */
   .lowerHeaderItem:not(:first-child) {
-    display: none; /* hide other items initially */
+    display: none;
   }
 
   .lowerHeaderToggle {
