@@ -1,0 +1,15 @@
+// src/components/Category/CategoryCard.jsx
+import React from "react";
+import styles from "./CatagoryCard.module.css";
+
+const CategoryCard = ({ title, image }) => {
+  return (
+    <div className={styles.card}>
+      <img src={image} alt={title} className={styles.image} />
+      <h3 className={styles.title}>{title}</h3>
+      <button className={styles.button}>Shop now</button>
+    </div>
+  );
+};
+
+export default CategoryCard;
